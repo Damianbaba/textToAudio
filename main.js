@@ -56,7 +56,4 @@ textToWav(text, outputFile)
         console.error('Conversion failed:', error);
     });
 
-// //In treminal Node main.js to start conversion 
-
-
-
+// //In treminal Node main.js to start conversion.
