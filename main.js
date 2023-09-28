@@ -3,7 +3,7 @@ const googleTTS = require('google-tts-api');
 
 // Function to convert text to WAV file
 async function textToWav(text, outputFile) {
-    const chunkSize = 300; // Define the desired chunk size (can be adjusted as needed)
+    const chunkSize = 500; // Define the desired chunk size (can be adjusted as needed)
     const chunks = [];
 
     // Split the text into smaller chunks
@@ -44,9 +44,9 @@ async function textToWav(text, outputFile) {
 }
 
 // Usage
-const text = 'Paste text here to convert';
+const text = `"Peace!"`;
 
-const outputFile = 'output';
+const outputFile = 'outputthx';
 
 textToWav(text, outputFile)
     .then(() => {
